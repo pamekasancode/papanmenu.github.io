@@ -1,0 +1,24 @@
+.nav {
+	padding: 20px;
+}
+
+.header {
+	margin-bottom: 20px;
+}
+
+.col-6 h2 {
+	margin-bottom: 20px;
+}
+
+.input-group {
+	margin-bottom: 15px;
+}
+
+.data {
+
+}
+
+.data .table i {
+	color: red;
+	cursor: pointer;
+}

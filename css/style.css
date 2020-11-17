@@ -1,0 +1,54 @@
+.navbar {
+	background-color: #fff !important;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+}
+
+.navbar.sticky {
+	box-shadow: 0 3px 12px #ccc;
+}
+
+.menu {
+	padding-top: 100px;
+}
+
+.menu .header h1, h6 {
+	text-align: center;
+	line-height: 30px;
+}
+
+.menu .col-6 {
+	margin-bottom: 50px;
+}
+
+.menu img {
+	width: 100%;
+	border-radius: 10px;
+	height: 250px;
+}
+
+.menu h4 {
+	float: left;
+	color: red;
+}
+
+.menu button {
+	float: right;
+}
+
+footer {
+	bottom: 0;
+	text-align: center;
+	padding: 10px;
+}
+
+@media(max-width: 600px) {
+	.menu img {
+		height: 130px;
+	}
+
+	.menu h4 {
+		font-size: 18px;
+	}
+}
